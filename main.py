@@ -26,6 +26,15 @@ my_day = int(age) * 365
 x = whole_day - my_day
 y = whole_week - my_week
 z = whole_month - my_month
+
 print(f"You have {x} days, {y} weeks, and {z} months left.")
 
+#Shorten
+
+years_remaining = 90 - int(age)
+month_remaining = years_remaining * 12
+week_remaining = years_remaining * 52
+day_remaininng = years_remaining * 365
+
+print(f"You have {day_remaininng} days, {week_remaining} weeks, and {month_remaining} months left.")
 
